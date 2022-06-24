@@ -1,7 +1,5 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import {TextInput, Button} from "react-native";
-import LoginForm from "./src/components/LoginForm"
+import {TextInput, Button, Text, View} from "react-native"
 
 export default function LoginForm(){
     return(
