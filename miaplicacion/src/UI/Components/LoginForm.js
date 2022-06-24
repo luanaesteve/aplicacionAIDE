@@ -1,5 +1,7 @@
+import { StatusBar } from "expo-status-bar";
 import React from "react";
-import {TextInput, Button} from "react-native"
+import {TextInput, Button} from "react-native";
+import LoginForm from "./src/components/LoginForm"
 
 export default function LoginForm(){
     return(
@@ -12,3 +14,13 @@ export default function LoginForm(){
         </view>
     )
 }
+
+const styles = StyleSheet.create({
+
+    container: {
+        flex: 1,
+        backgroundColor: "#fff",
+        alignItems: "center",
+        justifyContent: "center",
+    },
+});
