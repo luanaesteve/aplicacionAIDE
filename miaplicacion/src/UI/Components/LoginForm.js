@@ -5,7 +5,7 @@ export default function LoginForm(){
     return(
         <view>
             <text>hola</text>
-            <text>adios</text>
+            <text>me gusta la salchicha</text>
             <text>ajja</text>
             <TextInput placeholder="Email"></TextInput>
             <button>Enviar</button>
